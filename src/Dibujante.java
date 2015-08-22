@@ -33,9 +33,7 @@ public class Dibujante {
 		
 	}
 	
-	private void pintarRectangulo(Color[][] papel, int desdeX, int hastaX, 
-												  int desdeY, int hastaY,
-												  Color colorPincel) {
+	private void pintarRectangulo(Color[][] papel, int desdeX, int hastaX, int desdeY, int hastaY, Color colorPincel) {
 		
 		for (int x = desdeX; x < hastaX; x++) {
 			
